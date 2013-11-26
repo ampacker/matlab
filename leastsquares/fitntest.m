@@ -1,7 +1,6 @@
-function [c] = fitn(data,n)
+function [c] = fitntest(data,n)
 %FITN Solves least squares problem for data, returning n-degree polynomial
 %fit. Data should be nx2 matrix, where col1=xdata, col2=ydata
-%   Detailed explanation goes here
 
 if nargin < 2
     n = 1;
