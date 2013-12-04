@@ -8,7 +8,7 @@ function plotHelper(X,Y,sel,stylenames,styles,legendstr)
 
 hold on
 p = plot(X,Y(sel,:));
-set(p,stylenames(sel),styles(sel,:));
+set(p,stylenames,styles(sel,:));
 hold off
 axis tight;
 legend(legendstr{sel});
